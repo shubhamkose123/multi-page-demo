@@ -1,0 +1,200 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+#startnav a{
+    text-decoration: none;
+    color: black;
+}
+#mainnav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0px;
+}
+#startnav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#startnav li{
+    padding: 8px;
+
+}
+#endnav a{
+    padding: 25px;
+
+}
+#midnav img{
+    width: 170px;
+}
+
+/* ===================================end navbar=================================== */
+#hero{
+    display: flex;
+}
+#hero div{
+    padding: 10px;
+    margin: 10px;
+}
+#hero1 img{
+    width: 660px;
+}
+#hero3{
+    font-size: 40px;
+    font-weight: bold;
+}
+/* ====================================end hero page============================== */
+#sho{
+    font-size: 20px;
+}
+#item{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#item1 img{
+    width: 180px;
+}
+#item1 img:hover{
+     scale: 1.1;
+     transition: 0.5s;
+}
+#item1{
+    width: 250px;
+    height: 200px;
+    overflow-x: hidden;
+    border: 1px solid white;
+}
+#duv{
+    font-weight: bold;
+    font-size: 30px;
+}
+/* ================================================end SHOP BY CATEGORIES===================================== */
+#know{
+    display: flex;
+    justify-content: space-evenly;
+}
+#know2{
+    padding-left: 40px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+#know5{
+    padding-left: 40px;
+}
+#know1{
+    width: 600px;
+    height: 230px;
+    background-image: url(https://niches.minimog.co/cdn/shop/files/3_d9deec6d-f91a-485a-a9a8-ab4c3cf9d175.jpg?v=1622449027&width=940);
+}
+/* ================================================================================================== */
+
+#center{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+#center1{
+    font-weight: bold;
+    font-size: 40px;
+}
+#bed{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#bed1{
+    width: 380px;
+}
+#bed2{
+    width: 380px;
+}
+#bed3{
+    width: 380px;
+}
+#bed4{
+    width: 380px;
+}
+#bed5{
+    width: 380px;
+}
+#bed6{
+    width: 380px;
+}
+#bed div{
+    padding: 10px;
+}
+/* =================================================== */
+#the{
+    font-size: 40px;
+    font-weight: bold;
+}
+#summer{
+    display: flex;
+}
+#summer div{
+  padding: 10px;
+}
+#summer1 img{
+    width: 600px;
+}
+#summer1 {
+    border: 1px solid white;
+    overflow-x: hidden;
+    width: 550px;
+}
+#summer1 img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+#summer2{
+    font-size: 35px;
+    font-weight: bold;
+}
+/* ================================================== */
+#cop{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#cop2 img{
+    width: 250px;
+    height: 230px;
+}
+#cop2{
+    width: 230px;
+    height: 250px;
+    overflow-x: hidden;
+    border: 1px solid white;
+}
+#cop2 img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+/* ======================================================== */
+#footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    border: 2px solid rgb(186, 184, 184);
+}
+#footer div{
+    padding: 10px;
+}
+#footer1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#email input{
+    font-size: 30px;
+}
